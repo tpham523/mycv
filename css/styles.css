@@ -6,11 +6,19 @@ body {
 
 }
 
-hr {
+.hr-big {
   border: dotted #EAF6F6 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
+}
+
+.hr-small {
+  border: dotted #EAF6F6 3px;
+  border-bottom: none;
+  width: 20%;
+  margin-top: 100px;
+  margin: 70px auto;
 }
 
 h1 {
@@ -37,7 +45,7 @@ h3 {
 a {
   color:  #11999E;
   font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
+  margin: 10px 10px;
   text-decoration: none;
 }
 
@@ -54,7 +62,7 @@ a:hover {
 
 
 .middle-container {
-  margin: 100px 0;
+  margin: 100px 10px;
 
 }
 
@@ -89,25 +97,54 @@ p {
   border-radius: 200px;
 }
 
-.webdev-p {
-  width: 25%;
+.simon-p {
+  width: 40%;
   height: auto;
   float: left;
   margin-right: 30px;
+  border-radius: 5px;
+  padding-right: 30px;
 
 }
 
-.lego-p {
-  width: 25%;
+.calc-p {
+  width: 40%;
   height: auto;
   float: right;
   margin-left: 30px;
+  border-radius: 5px;
+}
+
+.uni-p {
+  width: 40%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.api-p {
+  width: 40%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+  border-radius: 5px;
+  padding-right: 30px;
+}
+
+.student-p {
+  width: 35%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+  border-radius: 5px;
+  padding-right: 30px;
 
 }
 
 
-.skill-row {
-  width: 50%;
+.project-row {
+  width: 65%;
   margin: 100px auto 100px auto;
   text-align: left;
 
@@ -148,6 +185,35 @@ p {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.btn-small:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.btn-small {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  margin: 0;
+
 }
 
 .copyright {
