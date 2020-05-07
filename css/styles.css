@@ -11,6 +11,7 @@ body {
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
+  float: center
 }
 
 .hr-small {
@@ -98,7 +99,7 @@ p {
 }
 
 .simon-p {
-  width: 40%;
+  width: 35%;
   height: auto;
   float: left;
   margin-right: 30px;
@@ -108,7 +109,7 @@ p {
 }
 
 .calc-p {
-  width: 40%;
+  width: 35%;
   height: auto;
   float: right;
   margin-left: 30px;
@@ -116,7 +117,7 @@ p {
 }
 
 .uni-p {
-  width: 40%;
+  width: 35%;
   height: auto;
   float: right;
   margin-left: 30px;
@@ -124,7 +125,7 @@ p {
 }
 
 .api-p {
-  width: 40%;
+  width: 35%;
   height: auto;
   float: left;
   margin-right: 30px;
